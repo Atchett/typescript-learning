@@ -113,3 +113,13 @@ console.log(uName, uAge);
 
 // Template literals
 console.log("TEMPLATE LITERALS");
+const someName = "John";
+const greeting = "Hello, I'm " + someName;
+console.log(greeting);
+
+const altGreeting = ` This is a heading!
+	I'm ${someName}.
+	This is cool.
+`;
+console.log(altGreeting);
+

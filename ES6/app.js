@@ -103,3 +103,8 @@ var uName = userData.userName, uAge = userData.age;
 console.log(uName, uAge);
 // Template literals
 console.log("TEMPLATE LITERALS");
+var someName = "John";
+var greeting = "Hello, I'm " + someName;
+console.log(greeting);
+var altGreeting = " This is a heading!\n\tI'm " + someName + ".\n\tThis is cool.\n";
+console.log(altGreeting);
