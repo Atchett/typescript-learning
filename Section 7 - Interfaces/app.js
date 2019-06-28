@@ -31,3 +31,16 @@ myPerson.firstName = "Fred";
 myPerson.lastName = "Something";
 greet(myPerson); // not class method
 myPerson.greet("Dalton");
+var myDoubleFunction;
+myDoubleFunction = function (val1, val2) {
+    return (val1 + val2) * 2;
+};
+console.log(myDoubleFunction(10, 2));
+var oldPerson = {
+    age: 72,
+    firstName: "JB",
+    greet: function (lastName) {
+        console.log('Hello');
+    }
+};
+console.log(oldPerson);
