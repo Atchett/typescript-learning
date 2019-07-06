@@ -1,0 +1,14 @@
+{
+  "name": "section-10-libraries",
+  "version": "1.0.0",
+  "description": "section 10 of typescript course - libraries",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.30"
+  }
+}
